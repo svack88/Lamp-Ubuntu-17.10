@@ -1,1 +1,1 @@
-apt-get update && apt-get upgrade && apt-get install apache2 hp7.1 libapache2-mod-php7.1 php7.1-mysql php-common php7.1-cli php7.1-common php7.1-json php7.1-opcache php7.1-readline mysql-server-5.7 phpmyadmin php-mbstring php-gettext &&  a2enmod php7.1 && systemctl restart apache2
+apt-get update && apt-get upgrade && apt-get install apache2 php7.1 libapache2-mod-php7.1 php7.1-mysql php-common php7.1-cli php7.1-common php7.1-json php7.1-opcache php7.1-readline mysql-server-5.7 phpmyadmin php-mbstring php-gettext &&  a2enmod php7.1 && systemctl restart apache2
